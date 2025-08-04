@@ -1,7 +1,6 @@
 class Solution {
   public:
     int maxRectSum(vector<vector<int>> &mat) {
-        // code here
         int n=mat.size();int m=mat[0].size();int maxSum=INT_MIN;
         for(int left=0;left<m;left++){
             vector<int>temp(n,0);
